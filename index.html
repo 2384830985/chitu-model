@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>插件的组合</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="t-Carousel-body" class="t-Carousel-body"></div>
+<button class="t-btn-sure" onclick="start()">我是一个alert的插件</button>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="main.js"></script>
+<script>
+    var ImgList = [
+        'http://oxi8pj5na.bkt.clouddn.com/11.png',
+        'http://oxi8pj5na.bkt.clouddn.com/222.png',
+        'http://oxi8pj5na.bkt.clouddn.com/333.png'
+    ];
+    console.log(ChiTu)
+    ChiTu.TCarousel({//轮播图
+        id: '#t-Carousel-body',//必填是当前的插入的位置
+        ImgList: ImgList//必填是图片的数组
+    })
+    function start() {//alert
+        ChiTu.EjectAlertL({
+            ok: function () {
+                alert('你点击了确定')
+            },
+            close: function () {
+                alert('你点击了取消')
+            }
+        })
+    }
+</script>
+</body>
+</html>

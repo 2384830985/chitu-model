@@ -1,0 +1,86 @@
+* { padding: 0; margin: 0; }
+/*下面是alert插件css*/
+.mydialog123 {z-index: 1000; background: #fff; box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3); overflow: hidden; width: 300px; height: 180px; border: 1px solid #dcdcdc; position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto; }
+.close123 { position: absolute; right: 5px; top: 5px; width: 16px; height: 16px; line-height: 16px; text-align: center; font-size: 18px; cursor: pointer; }
+.mydialog-cont { padding: 0 0 50px; display: table; width: 100%; height: 100%; }
+.mydialog-cont .cont123 { display: table-cell; text-align: center; vertical-align: middle; width: 100%; height: 100%; }
+.footer123 { display: table; table-layout: fixed; width: 100%; position: absolute; bottom: 0; left: 0; border-top: 1px solid #dcdcdc; }
+.footer123 .btn123 { display: table-cell; width: 50%; height: 50px; line-height: 50px; text-align: center; cursor: pointer; }
+.footer123 .btn123:last-child { display: table-cell; width: 50%; height: 50px; line-height: 50px; text-align: center; cursor: pointer; border-left: 1px solid #dcdcdc; }
+/*下面是轮播图插件css*/
+.t-Carousel-body{
+    position: relative;
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+}
+.t-Carousel-content{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.t-Carousel-img{
+    width: 100%;
+    height: 100%;
+}
+.t-Carousel-Choice{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 10;
+}
+.t-Carousel-left{
+    cursor: pointer;
+    background-color: rgba(51,51,51,.5);
+    position: absolute;
+    overflow: hidden;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top:50%;
+    z-index: 10;
+}
+.t-Carousel-left:hover{
+    background-color: rgba(51,51,51,.8);
+}
+.t-Carousel-right{
+    cursor: pointer;
+    background-color: rgba(51,51,51,.5);
+    position: absolute;
+    overflow: hidden;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top:50%;
+    z-index: 10;
+}
+.t-Carousel-right:hover{
+    background-color: rgba(51,51,51,.8);
+}
+.t-Carousel-Choice div{
+    display: inline-block;
+    margin: 0 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #5fb0f5;
+}
+.t-Carousel-Choice div:hover{
+    background-color: #5fb0f5;
+}
+.t-Carousel-background{
+    background-color: #5fb0f5;
+}
+/*下面是button的插件css*/
+.t-btn-sure{
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
